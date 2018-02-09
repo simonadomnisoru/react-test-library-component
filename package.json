@@ -1,6 +1,6 @@
 {
-  "name": "react-test-library-component", /*Change this for your library name for example your-component-name*/
-  "version": "0.0.1",  /*Change this for your version number*/
+  "name": "react-test-library-component",
+  "version": "0.0.1",
   "description": "Default configuration for creating a react library compoenet",
   "main": "build/index.js",
   "peerDependencies": {
@@ -15,7 +15,7 @@
     "start": "webpack --watch",
     "build": "webpack"
   },
-  "author": "Simona Domnisoru <simona.domnisoru@gmail.com>",  /*Add yourself as the author*/
+  "author": "Simona Domnisoru <simona.domnisoru@gmail.com>",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andreeasimona/react-test-library-component.git" /*Change this for your github repository*/
+    "url": "git+https://github.com/andreeasimona/react-test-library-component.git"
   },
   "keywords": [
     "react",
@@ -35,7 +35,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andreeasimona/react-test-library-component/issues" /*Change this for your github repository*/
+    "url": "https://github.com/andreeasimona/react-test-library-component/issues"
   },
-  "homepage": "https://github.com/andreeasimona/react-test-library-component#readme" /*Change this for your github repository*/
+  "homepage": "https://github.com/andreeasimona/react-test-library-component#readme"
 }

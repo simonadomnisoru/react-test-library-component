@@ -24,6 +24,28 @@ npm install
 Follow the instructions in src/index.js to add your first changes.
 
 Follow the instructions in package.json to personalise the name/repository/version etc. of your package.
+In package.jsonchange the following lines
+
+```
+{
+....
+  "name": "Change this for your library name for example your-component-name",
+  "version": "Change this for your version number",
+....
+  "author": "Add yourself as the author",
+....
+  "repository": {
+    "url": "Change this for your github repository"
+  },
+....
+  "bugs": {
+    "url": "Change this for your github repository"
+  },
+  "homepage": "Change this for your github repository"
+}
+....
+```
+
 
 ## Publish on npm
 
