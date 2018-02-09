@@ -1,6 +1,6 @@
-# Project Title
+# React Library Component
 
-One Paragraph of project description goes here
+This is a basic configuration project to get started on publishing a library of a react component on npm.
 
 ## Getting Started
 
@@ -16,43 +16,30 @@ Give examples
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
+Get the package
 ```
-Give the example
+npm install react-test-library-component
 ```
 
-And repeat
-
+Get other dependency
 ```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
+npm install
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
+## Publish on npm
 
 ```
-Give an example
+npm run build
+npm publish
+```
+
+## Usage in local enviroment
+
+```
+npm run build
+npm link
 ```
 
 ## License
 
 This project is licensed under the MIT License
-

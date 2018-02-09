@@ -15,10 +15,7 @@
     "start": "webpack --watch",
     "build": "webpack"
   },
-  "author": {
-    "name": "Simona Domnisoru",
-    "email": "simona.domnisoru@gmail.com"
-  },
+  "author": "Simona Domnisoru <simona.domnisoru@gmail.com>",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
@@ -26,5 +23,19 @@
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.5.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreeasimona/react-test-library-component.git"
+  },
+  "keywords": [
+    "react",
+    "library",
+    "component"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreeasimona/react-test-library-component/issues"
+  },
+  "homepage": "https://github.com/andreeasimona/react-test-library-component#readme"
 }
