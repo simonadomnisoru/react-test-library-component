@@ -6,14 +6,6 @@ This is a basic configuration project to get started on publishing a library of 
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
 ### Installing
 
 Get the package
@@ -35,9 +27,24 @@ npm publish
 
 ## Usage in local enviroment
 
+In the current project
 ```
 npm run build
 npm link
+```
+
+Use this in the project where you want to use/test your new library
+```
+npm link your-component-name
+```
+
+Import the component in hte target project
+```
+....
+import ComponentName from 'your-component-name';
+....
+<ComponentName />
+....
 ```
 
 ## License
