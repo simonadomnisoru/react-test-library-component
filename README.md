@@ -18,7 +18,20 @@ Get other dependency
 npm install
 ```
 
+### Get started on your new library
+
+Follow the instructions in src/index.js to add your first changes.
+Follow the instructions in package.josn to personalise the name/repository/version etc. of your package.
+
 ## Publish on npm
+
+Login into your account
+
+```
+npm login
+```
+
+Publish
 
 ```
 npm run build
@@ -38,7 +51,7 @@ Use this in the project where you want to use/test your new library
 npm link your-component-name
 ```
 
-Import the component in hte target project
+Import the component in the target project
 ```
 ....
 import ComponentName from 'your-component-name';
