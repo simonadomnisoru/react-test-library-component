@@ -6,19 +6,20 @@ This is a basic configuration project to get started on publishing a library of 
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Installing
+### Install the package from npm
 
-Get the package
 ```
 npm install react-test-library-component
 ```
 
-Get other dependency
+### Get started on your new library
+
+Fork or clone the repository https://github.com/andreeasimona/react-test-library-component
+
+Install the dependencies
 ```
 npm install
 ```
-
-### Get started on your new library
 
 Follow the instructions in src/index.js to add your first changes.
 
@@ -55,9 +56,9 @@ npm link your-component-name
 Import the component in the target project
 ```
 ....
-import ComponentName from 'your-component-name';
+import YourComponentName from 'your-component-name';
 ....
-<ComponentName />
+<YourComponentName />
 ....
 ```
 
